@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import Dashboard from './components/Dashboard';
 import About from './components/About';
@@ -12,7 +12,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
       <Navbar />
        <Switch>
           <Route path="/" component={Dashboard} exact/>
@@ -20,7 +19,6 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route component={Error} />
        </Switch>
-      </BrowserRouter>
     </div>
   );
 }
