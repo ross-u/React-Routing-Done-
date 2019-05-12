@@ -8,4 +8,4 @@
 
 #### [React Router - `<Link>` vs `<NavLink>` - Video](<https://www.youtube.com/watch?v=UjAmXiNE68E>)
 
-#### [React Router Training](git remote -v
+#### [React Router Training](https://reacttraining.com/react-router/web/guides/quick-start)
